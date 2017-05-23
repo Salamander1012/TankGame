@@ -16,7 +16,7 @@ public class Projectile {
     private double ax = 0;
 
     public void drawProjectile(Graphics page) {
-        page.fillOval((int)getX(), (int)getY(), 10, 10);
+        page.fillOval((int)getX(), (int)getY(), 20, 20);
         
         
     }
